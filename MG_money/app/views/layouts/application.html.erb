@@ -10,6 +10,22 @@
   </head>
 
   <body>
+    <header>
+      <div class = "header_list">
+        <div class = "header_logo">   <!--ロゴ-->
+          <img src = "/logo/M-size.png">
+        </div>
+
+        <div class = "header_info">   <!--総資産、収入、支出-->
+          <ul>
+            <li><%= link_to "総資産", "#" %></li>
+            <li><%= link_to "収入", "#" %></li>
+            <li><%= link_to "支出", "#" %></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
     <%= yield %>
   </body>
 </html>
