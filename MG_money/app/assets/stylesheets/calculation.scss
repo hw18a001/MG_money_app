@@ -3,6 +3,12 @@
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
 
+@font-face {
+    font-family: 'font_custom';
+    src: font-url('Ronde-B_square.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
 
 .index:after{
     content: "";
@@ -12,4 +18,8 @@
 .money_sum, .mufg, .saving, .resona{
     float: left;
     width: 50%;
+}
+
+.index h1{
+    font-family: 'font_custom';
 }
