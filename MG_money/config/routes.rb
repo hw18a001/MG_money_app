@@ -3,4 +3,6 @@ Rails.application.routes.draw do
   get '/' => 'home#top'
 
   get 'index' => 'calculation#index'
+  get 'income' => 'calculation#income'
+
 end

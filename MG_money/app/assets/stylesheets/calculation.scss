@@ -10,6 +10,7 @@
     font-style: normal;
   }
 
+//index.html.erb----------
 .index:after{
     content: "";
     display: block;
@@ -42,5 +43,21 @@
     padding: 20px 0px 0px 50px;
     font-family: 'font_custom';
     font-size: 75px;
-    
+}
+
+//income.html.erb----------
+.income{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.income h1{
+    font-family: 'font_custom';
+    font-size: 100px;
+}
+.income p{
+    font-size: 30px;
+}
+.income input{
+    margin-top: 25px; 
 }
