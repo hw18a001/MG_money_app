@@ -15,17 +15,32 @@
     display: block;
     clear: both;
 }
+.index{
+    margin-left: 50px;
+}
 .money_sum, .mufg, .saving, .resona{
     float: left;
     width: 50%;
 }
-
 .index h1{
+    margin-top: 50px;
     font-family: 'font_custom';
     font-size: 50px;
 }
-
 .index img{
-    width: 30%;
-    height: 30%;
+    width: 15%;
+    height: 15%;
+    float: left;
+    margin-top: 20px;
+}
+.square{
+    position: relative;
+    top: 30px;
+}
+.index p{
+    float: left;
+    padding: 20px 0px 0px 50px;
+    font-family: 'font_custom';
+    font-size: 75px;
+    
 }
